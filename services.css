@@ -1,0 +1,27 @@
+.services {
+    max-width: 800px;
+    position: absolute;
+    top: 25%;
+}
+/*tabulka*/
+.services-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+/*styl pro buňky tabulky*/
+.services-table th,
+.services-table td {
+    padding: 10px;
+    border: 1px solid #387478;
+    text-align: left;
+}
+/*hlavička tabulky*/
+.services-table th {
+    background-color: #387478;
+    font-weight: bold;
+}
+/*barva pro řádky*/
+.services-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

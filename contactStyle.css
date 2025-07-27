@@ -1,0 +1,77 @@
+main{
+    display: flex;
+    flex-direction: row;
+    width:73%;
+}
+.map, .employees, .form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 125px;
+    padding: 0px 5px
+}
+.map {
+    width: 33.3vw;
+}
+.employees {
+    width: 33.3vw;
+}
+.form {
+    width: 33.4vw; 
+}
+figcaption{
+    color:black;
+    text-align: center;
+}
+.employees p{
+    font-size: 24px;
+}
+.employees a{
+    text-decoration: none;
+    color: black;
+}
+.form{
+    display:block;
+    text-align: center;
+    padding-right: 10px;
+}
+/*formulář*/
+#contactForm{
+    padding: 10px;
+    border: 1px solid #387478;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #387478;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+input, textarea:focus {
+    border-color: #387478;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #387478;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(0, 123, 255);
+}
+a.link{
+    color: #387478;
+    text-decoration: underline;
+}

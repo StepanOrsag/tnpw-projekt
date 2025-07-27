@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.menuToggle{
+    display: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    background-color: #243642d7;
+}
+nav {
+    width: 4%;
+    background-color: #387478;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    border-right: 1px solid black;
+    transition: 0.5s;
+    position: fixed;
+    overflow: hidden;
+    z-index: 10;
+}
+.mainLogo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mainLogoText{
+    white-space: nowrap; 
+    opacity: 0;
+    width: 0; 
+    transition:  0.5s ease,  0.5s ease; 
+}
+.navLogo{
+    margin-left: 12.5%;
+    transition: all 0.3s ease;
+}
+.logoText {
+    white-space: nowrap; 
+    opacity: 0;
+    width: 0; 
+    transition:  0.5s ease,  0.5s ease; 
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 50px;
+    gap: 15px;
+}
+.navlink {
+    margin: 50% 0;
+}
+.navlink a {
+    display: flex;
+    margin-left: 62.5%;
+    text-decoration: none;
+    color: black;
+    width: 100%; 
+    background-color:#387478;
+}
+nav:hover{
+    width: 16%;
+    transition: 0.5s;
+    z-index: 10;
+}
+nav:hover .logoText {
+    opacity: 1;
+    margin-left: 50%;
+    white-space: nowrap; 
+}
+nav:hover .mainLogoText {
+    opacity: 1;
+    margin-left: 15%;
+    white-space: nowrap; 
+}
+.navlink a:hover {
+    color: red;
+}
+
+.active a {
+    color: red;
+}
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+main {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    width: calc(100% - 27%);
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.76); 
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #243642d7;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.flinks {
+    text-wrap: nowrap;
+    display: flex;
+    gap: 4%;
+    font-size:  75%;
+    margin-right: 2%;
+}
+
+.flinks a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.flinks a:hover {
+    color: #387478;
+}
+.copyright {
+    text-align: center;
+    margin-left: 2%;
+}

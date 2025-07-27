@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stavební projekce s.r.o</title>
+    <link href="loga/Logo.png" rel="icon">
+    <link rel="stylesheet" href="style.css" media="only screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="mobileStyle.css" media="only screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="contactStyle.css" media="only screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="mobileContact.css" media="only screen and (max-width: 1024px)">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <input type="checkbox" id="menuToggle" class="menuToggle">
+            <label for="menuToggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="mainLogo">
+                <a href="./index.html">
+                    <img class="navLogo"  src="loga/Logo.png" alt="">
+                </a>
+                <span class="mainLogoText">Stavební projekce</span>
+            </div>
+            <ul class="nav">
+                <li class="navlink"> 
+                    <a href="./index.html">
+                        <img src="miniLoga/home.png" alt="">
+                        <span class="logoText">Domů</span>
+                    </a>
+                </li>
+                <li class="navlink"> 
+                    <a href="./about.html">
+                        <img src="miniLoga/about.png" alt="">
+                        <span class="logoText">O nás</span>
+                    </a>
+                </li>
+                <li class="navlink"> 
+                    <a href="./services.html">
+                        <img src="miniLoga/services.png" alt="">
+                        <span class="logoText">Služby</span>
+                    </a>
+                </li>
+                <li class="navlink"> 
+                    <a href="./references.html">
+                        <img src="miniLoga/references.png" alt="">
+                        <span class="logoText">Reference</span>
+                    </a>
+                </li>
+                <li class="active navlink"> 
+                    <a href="./contact.html">
+                        <img src="miniLoga/contact.png" alt="">
+                        <span class="logoText">Kontakt</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <main>
+                <div class="map">
+                <figure>
+                    <iframe 
+                        src="https://frame.mapy.cz/s/kefamahoho" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                <figcaption>Najdete nás zde⬆</figcaption>
+                </figure>
+            </div>
+            <div class="employees">
+                <p> Ing. Tomáš Orság<br>
+                    <a class="link" href="mailto:bosprojekt@atlas.cz">bosprojekt@atlas.cz</a><br>
+                    Telefon: 605 516 987<br>
+                    <br>Ing. Zdeněk Sychra<br>
+                    <a class="link" href="mailto:sychra@stvp.cz">sychra@stvp.cz</a><br> 
+                    Telefon: 604 334 591
+                </p>
+            </div>
+            <div class="form">
+                <h1>Napište Nám!</h1>
+                <form id="contactForm">
+                    <input type="text" name="name" placeholder="Napiš svoje jméno" required>
+                    <input type="text" name="email" placeholder="Napiš svůj email" required>
+                    <textarea rows="10" name="message" placeholder="Zpráva"></textarea>
+                    <button type="submit">Odeslat zprávu</button>
+                </form>
+            </div>
+        </main>
+        </div>
+    </div>
+    <footer>
+        <div class="flinks">
+            <a href ="./index.html">Domů</a>
+            <a href="./about.html">O nás</a>
+            <a href="./services.html">Služby</a>
+            <a href="./contact.html">Reference</a>
+            <a href="./contact.html">Kontakt</a>
+        </div>
+        <div class="footerlogo">
+            <img src="loga/Logo2.png" height="150" width="250" alt="">
+        </div>
+        <div class="copyright">
+            <p>©Studenstký zápočtový projekt 2024</p>
+    </footer>
+</body>
+</html>

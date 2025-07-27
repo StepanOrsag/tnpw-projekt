@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2% 0;
+}
+main div {
+    padding: 20px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+/*zarovnání textu pro sudé a liché, doprava a doleva*/
+main div:nth-child(odd) {
+    align-items: flex-start;
+}
+
+main div:nth-child(even) {
+    align-items: flex-end;
+}
+/*odstavce*/
+main p{
+    line-height: 1.5;
+    max-width: 75%;
+    padding: 1%;
+    border: 1px solid #387478;                                                            
+}
+/*nadpisy*/
+h1{
+    padding-bottom: 25px;
+}
+h2{
+    color: #387478
+}
